@@ -1,0 +1,33 @@
+package telusko;
+
+import java.util.Scanner;
+
+class Guesser {
+	int guessNum;
+	
+void	guessingNumber(){
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("gusser kindly guess the number");
+		guessNum=scan.nextInt();
+	}
+}
+
+class Player{
+	
+}
+class Umpire {
+	
+}
+
+
+
+
+public class Game {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

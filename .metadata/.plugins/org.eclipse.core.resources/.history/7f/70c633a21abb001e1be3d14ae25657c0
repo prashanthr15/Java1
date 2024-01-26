@@ -1,0 +1,49 @@
+package telusko;
+
+class Human2{
+	public void sleep() //overriding
+	{
+		System.out.println("human is sleeping");
+	}
+	
+	public int eat() {
+		System.out.println("human needs to eat");
+		return 10;
+	}
+}
+
+class Employee2 extends Human2{
+//	protected void sleep() //overridden
+//	{
+//		Cannot reduce the visibility of the inherited method from Human2
+//		System.out.println("employee is sleeping");
+//	}
+		
+		public void sleep() 
+		{
+			System.out.println("employee is sleeping");
+		}
+		
+		public void eat() {
+			System.out.println("human needs to eat");
+			return 100;
+		}
+}
+
+
+
+
+
+public class Inheritance5 {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Employee2 e= new Employee2();
+		e.sleep();
+		e.eat();
+		
+	}
+
+}

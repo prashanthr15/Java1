@@ -1,0 +1,26 @@
+package telusko;
+
+class Demo {
+	int a;
+	double b;
+	
+	void disp() {
+		a=10;
+		b=22;
+		System.out.println(a);
+		System.out.println(b);
+	}
+}
+
+
+public class Memory1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Demo d= new Demo();
+		d.disp();
+
+	}
+
+}

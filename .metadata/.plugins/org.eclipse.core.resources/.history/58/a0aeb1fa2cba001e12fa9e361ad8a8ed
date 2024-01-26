@@ -1,0 +1,9 @@
+package telusko;
+
+public class Student {
+
+	public id;
+	public age;
+	public name;
+
+}

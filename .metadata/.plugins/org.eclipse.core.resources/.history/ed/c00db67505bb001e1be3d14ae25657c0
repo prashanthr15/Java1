@@ -1,0 +1,24 @@
+package telusko;
+class Animal1{
+	int age;
+	Animal1(){
+		age=2;
+		System.out.println("zero parameter animal constructor" + age);
+	}
+Animal1(int age){
+		this.age=age;
+	}
+}
+class Lion extends Animal1{
+	
+}
+
+
+public class Inheritance4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

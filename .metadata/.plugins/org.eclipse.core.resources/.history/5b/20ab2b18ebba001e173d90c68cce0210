@@ -1,0 +1,19 @@
+package telusko;
+
+class Human1{
+	int age;
+	void disp() {
+		System.out.println("Human class method");
+	}
+}
+
+
+
+public class Inheritance2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

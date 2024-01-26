@@ -1,0 +1,13 @@
+package telusko;
+class Animal1{}
+class Lion extends Animal1{}
+
+
+public class Inheritance4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

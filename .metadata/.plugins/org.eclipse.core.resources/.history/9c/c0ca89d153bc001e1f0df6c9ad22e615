@@ -1,0 +1,27 @@
+package telusko;
+
+class Plane2{
+	public void takeoff() {
+		System.out.println("plane is taaking off");
+	}
+	
+	public void fly() {
+		System.out.println("plane is flying");
+	}
+}
+
+
+
+
+
+
+
+
+public class Poly1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

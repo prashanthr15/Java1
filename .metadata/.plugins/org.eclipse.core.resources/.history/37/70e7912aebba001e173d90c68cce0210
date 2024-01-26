@@ -1,0 +1,25 @@
+package telusko;
+
+class Human1{
+	int age;
+	void disp() {
+		System.out.println("Human class method");
+	}
+}
+
+class Employee extends Human1{
+	void showAge() {
+		System.out.println(age);
+	}
+}
+
+
+
+public class Inheritance2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

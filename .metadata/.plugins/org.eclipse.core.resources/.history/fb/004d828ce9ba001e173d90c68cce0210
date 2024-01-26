@@ -1,0 +1,18 @@
+package telusko;
+class Human{
+	
+}
+
+class Student1{
+	
+}
+
+
+public class Inheritance1 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

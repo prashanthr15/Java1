@@ -1,0 +1,13 @@
+package telusko;
+
+public class Student {
+
+	private int id;
+private	int marks;
+private String name;
+
+//binding of data and method is called encapsulation
+void show() {
+	System.out.println(id);
+}
+}

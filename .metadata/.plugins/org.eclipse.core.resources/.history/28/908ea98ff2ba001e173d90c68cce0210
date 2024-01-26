@@ -1,0 +1,48 @@
+package telusko;
+
+class Aeroplane{
+	void takeoff() {
+		System.out.println("Aeroplane class take off");
+	}
+	
+	void fly() {
+		System.out.println("Aeroplane class take off and flying");
+	}
+}
+
+class Cargoplane extends Aeroplane{
+	
+}
+
+class Fighterplane extends Aeroplane{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public class Inheritance3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Cargoplane cp= new Cargoplane();
+	}
+
+}

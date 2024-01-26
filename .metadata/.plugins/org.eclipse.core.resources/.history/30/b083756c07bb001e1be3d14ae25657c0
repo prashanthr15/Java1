@@ -1,0 +1,44 @@
+package telusko;
+class Animal1{
+	int age;
+	Animal1(){
+		this(19);
+		age=2;
+		System.out.println("zero parameter animal constructor" + age);
+	}
+Animal1(int age){
+		this.age=age;
+		System.out.println("parameter constricter" +age);
+	}
+}
+class Lion extends Animal1{
+	
+	int noOfLegs;
+	
+	Lion(){
+		this(22);
+		System.out.println("zero parameter lion constructor" + age);
+	}
+	
+	Lion(int noOfLegs){
+		this.noOfLegs=noOfLegs;
+		System.out.println("zero parameter lion constructor" + noOfLegs);
+	}
+	
+	void disp() {
+		System.out.println(age);
+		System.out.println(noOfLegs);
+	}
+}
+
+
+public class Inheritance4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Lion l= new Lion(5);
+		l.disp();
+	}
+
+}

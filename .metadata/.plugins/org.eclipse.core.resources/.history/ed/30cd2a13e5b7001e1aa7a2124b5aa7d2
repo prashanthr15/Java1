@@ -1,0 +1,23 @@
+package telusko;
+
+public class Condition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ 
+		int age = 88;
+		
+		if (age >=18) {
+			System.out.println("ypou are goog to go");
+		}
+		else if (age>60) {
+			System.out.println("you are not good to go");
+		}
+		else {
+			System.out.println("not for kids");
+		}
+		
+		System.out.println();
+	}
+
+}

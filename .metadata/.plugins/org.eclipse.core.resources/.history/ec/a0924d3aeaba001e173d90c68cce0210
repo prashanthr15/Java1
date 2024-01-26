@@ -1,0 +1,24 @@
+package telusko;
+//parent or super or base class
+class Human{
+	
+	void sleep() {
+		System.out.println("human needs sleep");
+	}
+}
+//child or sub or derived class
+class Student1 extends Human{
+	
+}
+
+
+public class Inheritance1 {
+
+	public static void main(String[] args) {
+		
+
+		Student1 s1= new Student1();
+		s1.sleep();
+	}
+
+}

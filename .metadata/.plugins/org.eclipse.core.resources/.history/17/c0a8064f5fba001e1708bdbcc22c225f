@@ -1,0 +1,53 @@
+package telusko;
+
+class Demo2{
+	
+	
+	static int a,b;
+	int x,y;
+	
+	
+	static {
+		a=10;
+		b=20;
+		System.out.println("static initialaization block");
+	}
+	
+//	java initialaization block
+	
+	{
+		x=100;
+		y=200;
+		System.out.println("instance initialaization block");
+	}
+	
+	Demo2(){
+		System.out.println("constructor");
+	}
+	
+	
+	static void disp1() {
+		System.out.println("static method");
+		System.out.println(a);
+		System.out.println(b);
+	}
+	
+	void disp2() {
+		System.out.println("instance method");
+		System.out.println(x);
+		System.out.println(y);
+	}
+	
+}
+
+
+
+
+public class Static2 {
+
+	public static void main(String[] args) {
+		Demo2 d2= new Demo2();
+
+	}
+
+}

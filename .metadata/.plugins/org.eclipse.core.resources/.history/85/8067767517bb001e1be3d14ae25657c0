@@ -1,0 +1,23 @@
+package telusko;
+
+class Human1{
+	
+}
+
+class Employee1{
+	
+}
+
+
+
+
+
+public class Inheritance5 {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

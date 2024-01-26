@@ -1,0 +1,19 @@
+class Student{
+	String name;
+	int age;
+	
+	void disp() {
+		System.out.println("student class");
+	}
+}
+public class Launch {
+
+	public static void main(String[] args) {
+		System.out.println("launch hello");
+		
+		Student std = new Student();
+		std.disp();
+
+	}
+
+}
