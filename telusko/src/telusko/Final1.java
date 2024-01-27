@@ -27,7 +27,7 @@ package telusko;
  class Beta extends Alpha{
     // The type Beta cannot subclass the final class Alpha
 //	 public void disp(){
-//	//cant over ride
+//	//cant over ride methhod
 //	        System.out.println("beta" + pi );
 //	    }
  
