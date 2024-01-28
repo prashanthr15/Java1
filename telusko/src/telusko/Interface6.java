@@ -17,6 +17,7 @@ class Shaping {
 	}
 }
 
+//first extend then implements
 class Rectangle extends Shaping implements Shapes2,Shapes3{
 //class can implements multiple interfaces
 	@Override

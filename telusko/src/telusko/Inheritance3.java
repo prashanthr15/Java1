@@ -6,6 +6,7 @@ class Aeroplane {
 	}
 
 	void fly() {
+		
 		System.out.println("Aeroplane class take off and flying");
 	}
 }
@@ -16,6 +17,7 @@ class Cargoplane extends Aeroplane {
 	}
 
 	void landing() {
+		fly();
 		System.out.println("cargoplane class landing");
 	}
 }
