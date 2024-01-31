@@ -1,5 +1,6 @@
 package project2;
-
+//https://github.com/haripriyaMannem/RewardsApp
+//roopaitagi/QuizzAPP_Telusko_Team_Float
 import java.util.Scanner;
 
 //inheritance
