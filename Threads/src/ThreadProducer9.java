@@ -85,10 +85,13 @@ some problem
 /*intra means same class
  * inter means diff classes
  * 
- * sleep() we can use for intra thread 
+ * sleep() ,join()we can use for intra thread 
  * wait(0 we can use in inter thread
  * no communication bw the threads 
  * and keep on infinity loops
+ * this wait and notify will communic ate like 
+ * one metod wait with another methd notify
+ * one metod notify  with another methd wait
  * to communicate use wait(),notify() methods 
  * for every wait() mthd ,to come out from wait state it should encounter with notify() mthd
  */
